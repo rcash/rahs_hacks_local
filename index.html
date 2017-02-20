@@ -73,10 +73,11 @@
             <link rel="stylesheet" href="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/style.css">
         </div>
         <div class="row">
+            <div class="text-center">
             <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbx8Pj9IgYH-ghWWyOxMMb0aJ37O5p52XFkprD7lMYYaO8mM4yw/exec">
                 <fieldset class="maillist">
                     <label for="name">Name: </label>
-                    <input id="name" class="black" name="name" placeholder="first name"/>
+                    <input id="name" class="black" name="name" placeholder="first name" width="100"/>
                 </fieldset>
                 <fieldset class="maillist">
                     <label for="email">Email:</label>
@@ -87,10 +88,11 @@
             </div>
             </form>
         </div>
+        </div>
 
  <!-- Customise the Thankyou Message People See when they submit the form: -->
-    <div style="display:none;" id="thankyou_message">
-        <h2><em>Cool!</em>Look for an email from us soon.</h2>
+    <div style="display:none; text-align:center;" id="thankyou_message">
+        <h2>Cool! Look for an email from us soon.</h2>
     </div>
 </div>
         <script data-cfasync="false" type="text/javascript"src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
