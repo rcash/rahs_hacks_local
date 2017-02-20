@@ -1,0 +1,57 @@
+header {
+    /*height: 100vh;*/
+    padding-bottom: 15px;
+    /*background-image: url('./Images/HeaderPattern.png'); */
+    /*background-repeat: repeat;*/
+}
+h1{
+    font-size: 4em;
+    font-family: 'Open Sans', 'sans-serif', helvetica;
+    color: white;
+}
+h2{
+    font-size: 3.5em;
+}
+h3{
+    font-size: 2em;
+}
+p{
+    font-size: 1.5em;
+}
+.welcome{
+    padding-top: 10px;
+}
+.WWW{
+    font-family: 'Open Sans', 'sans-serif';
+}
+.greeting{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+}
+.define{
+    padding-left: 13.33%;
+    padding-right: 13.33%;
+}
+.svgline{
+    padding-top: 1%;
+}
+.black{
+    color: black;
+    font-family: 'helvetica';
+}
+.mailhead{
+    padding-bottom: 1%;
+}
+.maillist{
+    font-size: 2em;
+}
+.rbutton{
+    background-color: #fff;
+    color: #ef2d4d;
+}
+body{
+    background-color: #ef2d4d;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}

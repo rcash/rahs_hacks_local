@@ -1,0 +1,102 @@
+<DOCTYPE html>
+    <html>
+    <head>
+        <title>RAHS Hack Club</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--change this when on github.io!-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="welcome">
+                            <h1>rahs_hacks</h1>
+                        </div>
+                    </div>
+                </div>
+            <!--Intro text and photo here !-->
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="greeting">
+                        <h3>Hello! Welcome to the official site of Roseville Area High School's Hack Club.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="define">
+                        <h3><strong>hack</strong> ('/hæk/'): to solve problems with code, especially in a clever or quick manner.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row svgline">
+                <svg height="1vw" width="100%">
+                    <line x1="5%" y1="0" x2="95%" y2="0" style="stroke:#ffffff;stroke-width:9" />
+                </svg>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <h2 class="WWW">What?</h2>
+                        <p>We're an afterschool club with a mission to teach people to code through building websites and games in a friendly, laidback environment. Snacks, tunes and fun provided.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <h2 class="WWW">Why?</h2>
+                        <p>Coding is an increasingly lucrative and in demand career field. Learning it can change your life. The world needs more coders as technology plays an increasingly important role in society.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <h2 class="WWW">When?</h2>
+                        <p>We meet most Tuesdays and Wednesdays in the Lower B lab until 4 or 4:30pm. Join our mail list to find out more!
+                    </div>
+                </div>
+            </div>
+            <div class="row svgline">
+                <svg height="1vw" width="100%">
+                    <line x1="5%" y1="0" x2="95%" y2="0" style="stroke:#ffffff;stroke-width:9" />
+                </svg>
+            </div>
+            <div class="row">
+                <div class="col text-center mailhead">
+                    <h2>Join our mail list!</h2>
+                    <h3>Sign up here if you're interested, have questions or want info on events and meetings.</h3>
+                </div>
+            <link rel="stylesheet" href="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/style.css">
+        </div>
+        <div class="row">
+            <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbx8Pj9IgYH-ghWWyOxMMb0aJ37O5p52XFkprD7lMYYaO8mM4yw/exec">
+                <fieldset class="maillist">
+                    <label for="name">Name: </label>
+                    <input id="name" class="black" name="name" placeholder="first name"/>
+                </fieldset>
+                <fieldset class="maillist">
+                    <label for="email">Email:</label>
+                    <input id="email" class="black" name="email" type="email" value="" required placeholder="valid email address"/>
+                </fieldset>
+                <div class="text-center">
+                <button class=" btn btn-outline-success btn-lg rbutton"><i></i>&nbsp;<strong>Submit</strong></button>
+            </div>
+            </form>
+        </div>
+
+ <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <div style="display:none;" id="thankyou_message">
+        <h2><em>Cool!</em>Look for an email from us soon.</h2>
+    </div>
+</div>
+        <script data-cfasync="false" type="text/javascript"src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
+    </body>
+
+    </html>
