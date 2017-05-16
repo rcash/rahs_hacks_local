@@ -18,6 +18,10 @@ h3{
 p{
     font-size: 1.5em;
 }
+.hackathon{
+    width: 100vw;
+    height: 100vh;
+}
 .welcome{
     padding-top: 10px;
 }
@@ -52,6 +56,9 @@ p{
 }
 .test{
     margin-left: .13em;
+}
+.bg-primary{
+    background-color: #00ccff;
 }
 body{
     background-color: #ef2d4d;
