@@ -53,6 +53,9 @@ p{
 .test{
     margin-left: .13em;
 }
+.bg-primary{
+    background-color: #00ccff;
+}
 body{
     background-color: #ef2d4d;
     font-family: 'Roboto', sans-serif;
